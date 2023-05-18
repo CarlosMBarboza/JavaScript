@@ -6,6 +6,7 @@ class Persona{// Esto es la clase padre
         this._nombre = nombre;
         this._apellido = apellido;
         Persona.contadorObjetoPersona++;//Asi se arma un  contador de clase
+        console.log('Se incrementa contador: ' + Persona.contadorObjetoPersona);
     }
 
     get nombre(){// Esto es un metodo, que lee y retorna lo mismo
