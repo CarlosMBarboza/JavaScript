@@ -1,6 +1,6 @@
 class Persona{// Esto es la clase padre 
-    /*La variable que creamos de tipo static la tenemos que acceder  por medio de nuestra clase Ej:( Persona.contadorObjetoPersona)
-    los atributos Static  se asician con nuetra plantilla, con nuetra clase */
+        /*La variable que creamos de tipo static la tenemos que acceder  por medio de nuestra clase Ej:( Persona.contadorObjetoPersona)
+         os atributos Static  se asician con nuetra plantilla, con nuetra clase */
         static contadorPersona = 0;// atributos de clase
         constructor(nombre, apellido){// Esto es un metodo 
             this._nombre = nombre;
